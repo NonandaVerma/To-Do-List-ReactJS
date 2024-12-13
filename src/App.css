@@ -1,0 +1,65 @@
+*{
+  margin:0px;
+  padding:0px;
+  list-style:none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:#fff;
+}
+
+body{
+  background-color: rgb(46, 44, 60);
+}
+
+.main{
+  width:900px;
+  border:solid 1px #fff;
+  margin:30px auto;
+}
+
+.main h1{
+  padding:20px;
+}
+
+.row{
+  width:90%;
+  margin:20px;
+}
+
+.row input{
+  width:70%;
+  padding:20px;
+  color:#000;
+}
+
+.row button{
+  margin:20px;
+  border:none;
+  outline:none;
+  background-color: rgb(10, 130, 190);
+  padding:10px 20px;
+  cursor: pointer;
+}
+
+.listrow{
+  width:90%;
+  margin:20px;
+}
+
+.listrow ul li{
+  margin-top:20px !important;
+  background-color: rgb(10, 130, 190);
+  padding:15px;
+  position: relative;
+  
+}
+
+.listrow ul li span{
+  position:absolute;
+  right:10px;
+}
+
+.activeLi{
+  background-color: rgb(239, 58, 58) !important;
+  text-decoration: line-through;
+
+}
